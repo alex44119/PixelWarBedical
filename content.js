@@ -211,6 +211,8 @@ if (window.location.href === "https://bde.telecom-paris.fr/pixelwar") {
                 jsonString = timerMessage.slice(1);
                 applySettingsFromJson(jsonString);
                 ca_lague = 2;
+            }else if (timerMessage[0].includes('-')) {
+                ca_lague = 2; // La page s'actualise
             }else{
                 ca_lague = 0;
                 loop = false;
