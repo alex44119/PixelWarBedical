@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Telecom Pixel War Completion",
+  "version": "2.5",
+  "description": "Permits people to automatically add a pixel to the pixel war",
+  "permissions": ["storage"],
+  "browser_action": {
+    "default_icon": {
+      "1080": "icon.png"
+    },
+    "default_title": "Extension Popup", 
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "1080": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
+
