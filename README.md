@@ -47,6 +47,9 @@ Changelog :
  - Bouton pour mettre facilement en pause l'extension
  - Version de Benjamin
 
+## Version 2.7
+ - Version 2.6 Upload pour aucune raison ?
+
 
 ## Changement de version
 
