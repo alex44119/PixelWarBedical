@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Telecom Pixel War Completion",
-  "version": "2.6",
+  "version": "2.7",
   "description": "Permits people to automatically add a pixel to the pixel war",
   "permissions": ["storage"],
   "browser_action": {

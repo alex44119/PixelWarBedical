@@ -1,4 +1,4 @@
-const versionActuelle = "V2.6";
+const versionActuelle = "V2.7";
 
 
 function newSettings(newLeLogo, newX_0, newY_0, newWidth, newHeight, newMessage, newVersion) {
