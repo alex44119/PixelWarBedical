@@ -8,27 +8,29 @@
 </head>
 <body>
     <div id="text">
-        <h2>:c Pixel War Urgence Bedicale (V2.5)</h2>
-        <a href = "http://alex.martinezrivera.free.fr/Projets_Info/ExtensionPixelWar/?message=V2.5">Tester si une nouvelle version est disponible</a>
+        <h2>Pixel War Urgence Bedicale (V2.6)</h2>
+        <a href = "http://alex.martinezrivera.free.fr/Projets_Info/ExtensionPixelWar/?message=V2.6">Tester si une nouvelle version est disponible</a>
         <h3>Cette extension nous permettra de gagner la pixel war !</h3>
         <p>Hésite pas à reporter tout bug sur discord.</p>
         <p>Ta seule mission est d'ouvrir la page <a href = "https://bde.telecom-paris.fr/pixelwar">https://bde.telecom-paris.fr/pixelwar</a> et te connecter avec tes identifiants rezel.</p>
         <p>Ensuite les pixels vont se placer automatiquement. Tu n'as rien à faire tant que la fenêtre reste ouverte.</p>
-    </div>
-    <div id="logo">
-        <div id="logoAffichage">
-            <p id="logoText"></p>
-        </div>
+        <p id="logoText"></p>
         <!--Create a list to chose between different logos-->
         <select id="logoSelect">
-            <option value="Logo1">Logo + KFT</option>
-            <option value="Logo2">Logo sans KFT</option>
-            <option value="Logo3">Defense Bar ONLY</option>
+            <option value="Logo0">Ne rien faire</option>
+            <option value="Logo2">Notre logo (et on ne défend pas KFT)</option>
+            <option value="Logo3">Ne pas perdre de temps avec le bord de BEDFLIX</option>
             <option value="Logo4">Bord BEDFLIX ONLY</option>
-            <option value="Logo5">BEDFUCK only (2 pixels) (Pas mis encore)</option>
+            <option value="Logo5">BEDFUCK only (2 pixels)</option>
+            <option value="Logo1">Logo + KFT (Déconseillé)</option>
         </select>
         <!--Boutton pour valider-->
         <button id="validate">Valider</button>
+        <p>Pour que les changements prennent effet, il faut recharger la page de la pixelwar</p>
+    </div>
+    <div id="logo">
+        <div id="logoAffichage">
+        </div>
     </div>
     <script src="popup.js"></script>
 </body>

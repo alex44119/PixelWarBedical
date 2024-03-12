@@ -44,9 +44,9 @@ Changelog :
  - Charger le bon logo la première fois que l'extension est sortie
 
 ## Version 2.6
- - Nombre de clicks
  - Bouton pour mettre facilement en pause l'extension
- - 
+ - Version de Benjamin
+
 
 ## Changement de version
 
@@ -55,7 +55,6 @@ Changelog :
  - Changer versionActuelle dans content.js
  - Changer la version dans le manifeste
  - Changer la version dans popup.html à deux endroits différents
- - Changer le LogoDefinitif.png sur le site Alex
 Uploader sur le site de Mozilla
  - Changer fichier à télécharger dans le index.html du site Alex (upload file)
  - Changer la version dans le site Alex à la fois dans le script et dans le href.
