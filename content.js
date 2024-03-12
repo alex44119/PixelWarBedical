@@ -1,5 +1,6 @@
 const versionActuelle = "V2.5";
 
+
 function newSettings(newLeLogo, newX_0, newY_0, newWidth, newHeight, newMessage, newVersion) {
     // Save the new values using browser.storage.local
     browser.storage.local.set({
@@ -220,6 +221,7 @@ if (window.location.href === "https://bde.telecom-paris.fr/pixelwar") {
             
         }
     }
+
     function loopedMode2(){   // Check if the div has content using innerHTML
         var loop = true;
         const myDiv = document.getElementById('timer');
