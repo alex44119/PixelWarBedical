@@ -60,7 +60,7 @@ Changelog :
  - Changer la version dans popup.html à deux endroits différents
 Uploader sur le site de Mozilla
  - Changer fichier à télécharger dans le index.html du site Alex (upload file)
- - Changer la version dans le site Alex à la fois dans le script et dans le href.
+ - Charger la version dans le site Alex à la fois dans le script et dans le href.
 
 Voici le site en question : [Alex](http://alex.martinezrivera.free.fr/Projets_Info/ExtensionPixelWar/)
 
