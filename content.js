@@ -1,4 +1,4 @@
-const versionActuelle = "V2.7";
+const versionActuelle = "V2.8";
 
 
 function newSettings(newLeLogo, newX_0, newY_0, newWidth, newHeight, newMessage, newVersion) {
@@ -287,6 +287,9 @@ if (window.location.href === "https://bde.telecom-paris.fr/pixelwar") {
                 jsonString = timerMessage.slice(1);
                 applySettingsFromJson(jsonString);
                 ca_lague = 2;
+            }else if (timerMessage[0].includes('-')) {
+                ca_lague = 2; // La page s'actualise
+                loop = true;
             }else{
                 ca_lague = 0;
                 loop = false;
@@ -297,7 +300,6 @@ if (window.location.href === "https://bde.telecom-paris.fr/pixelwar") {
             }
         }
     }
-
 
     let counter = 0;
     let intervalId = setInterval(looped, 1000);

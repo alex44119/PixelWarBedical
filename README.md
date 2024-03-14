@@ -50,6 +50,9 @@ Changelog :
 ## Version 2.7
  - Version 2.6 Upload pour aucune raison ?
 
+## Version 2.8
+ - Pensement sur BEDFLIX
+
 
 ## Changement de version
 
