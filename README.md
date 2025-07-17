@@ -16,7 +16,7 @@ Changelog :
  - Wait when undefined
  - 1 second wait instead of 10 or 5
 
-## Version 2.1
+## Version 2.1 
 
 Changelog :
  - Wrong max value
